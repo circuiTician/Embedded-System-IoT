@@ -13,16 +13,16 @@
 #include <addons/RTDBHelper.h>
 
 /* 1. Define the WiFi credentials */
-#define WIFI_SSID "circuiTician"
-#define WIFI_PASSWORD "Pneucis@202028"
+#define WIFI_SSID "***********"
+#define WIFI_PASSWORD "**********"
 
 //For the following credentials, see examples/Authentications/SignInAsUser/EmailPassword/EmailPassword.ino
 
 /* 2. Define the API Key */
-#define API_KEY "o3jBEstDTOKEXTgYEJGOTDsQ4UTl6qbQew175oqp"
+#define API_KEY "*********************"
 
 /* 3. Define the RTDB URL */
-#define DATABASE_URL "esp32-fb-79919-default-rtdb.firebaseio.com/" //<databaseName>.firebaseio.com or <databaseName>.<region>.firebasedatabase.app
+#define DATABASE_URL "************************" //<databaseName>.firebaseio.com or <databaseName>.<region>.firebasedatabase.app
 
 
 //Define Firebase Data object

@@ -20,15 +20,15 @@ ESP8266WiFiMulti wifiMulti;
 int cid;
 
 // WiFi AP SSID
-#define WIFI_SSID "Programmer Bose 2.4"
+#define WIFI_SSID "********"
 // WiFi password
-#define WIFI_PASSWORD "Pneucis@202226"
+#define WIFI_PASSWORD "*******"
 // InfluxDB v2 server url, e.g. https://eu-central-1-1.aws.cloud2.influxdata.com (Use: InfluxDB UI -> Load Data -> Client Libraries)
-#define INFLUXDB_URL "https://ap-southeast-2-1.aws.cloud2.influxdata.com"
+#define INFLUXDB_URL "https://ap-southeast-2-3.aws.cloud2.influxdata.com"
 // InfluxDB v2 server or cloud API token (Use: InfluxDB UI -> Data -> API Tokens -> Generate API Token)
-#define INFLUXDB_TOKEN "LIujCqYIepYq99GaiXOV7SJ1f-jJ2PGgqAngjKBGYsjEdZcF6ZnlysDoPAwZEc5Zzsk-jj5Sg_EYAUUIQa2IQw=="
+#define INFLUXDB_TOKEN "LIujCqYIepYq99GaiXOV7SJ1f-jJ2PGgqAngjKBGYsjEdZcF6ZnlysDoPAwZEc5Zzsk-jj5Sg_EYA="
 // InfluxDB v2 organization id (Use: InfluxDB UI -> User -> About -> Common Ids )
-#define INFLUXDB_ORG "f098fb3ba7967658"
+#define INFLUXDB_ORG "f098fb3ba79557488"
 // InfluxDB v2 bucket name (Use: InfluxDB UI ->  Data -> Buckets)
 #define INFLUXDB_BUCKET "RFID_LOG"
 

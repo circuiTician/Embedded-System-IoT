@@ -1,9 +1,9 @@
 #include <SPI.h>
 #include <LoRa.h>
 
-const int csPin = 15;
-const int resetPin = 2;
-const int irqPin = 5;
+const int csPin = 15; //D8
+const int resetPin = 2; //D4
+const int irqPin = 5; //D1
 int state=0;
 int counter = 0;
 int SyncWord = 0x22;
